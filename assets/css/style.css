@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F2FEFF;
+}
+
+header{
+    background-color: rgb(81, 78, 237, 0.5);
+    color: black;
+    margin: 0px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 60px;
+}
+
+header h1{
+    font-family: "Oswald", sans-serif;
+    cursor: default;
+    font-size: 40px;
+}
+
+header a{
+    color: black;
+    cursor: default;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.maingame{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D9FFA3;
+    border: solid black;
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 20px;
+    border-radius: 44px;
+}
+
+.maingame h2{
+    font-family: "Black Ops One", system-ui;
+    font-size: 40px;
+}
+
+.maingame h3{
+    font-family: "Black Ops One", system-ui;
+    font-size: 25px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.maingame button{
+    background-color: #FFFFA2;
+    border: solid grey;
+    border-radius: 44px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.maingame p{
+    color: red;
+    font-size: 25px;
+}
+
+.upgrade-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.upgrade-container div{
+    border: solid black;
+    text-align: center;
+    padding: 10px;
+}
