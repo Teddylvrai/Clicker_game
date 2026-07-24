@@ -98,3 +98,11 @@ header a{
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .upgrade-container {
+        flex-direction: column;
+    }
+
+}
