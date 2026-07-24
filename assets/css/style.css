@@ -106,6 +106,32 @@ header a{
         height: 100px;
     }
 
+    header h1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header a{
+        font-size: 15px;
+    }
+
+    .maingame{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #D9FFA3;
+        border: solid black;
+        margin-top: 25px;
+        margin-left: 15%;
+        margin-right: 15%;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        gap: 20px;
+        border-radius: 44px;
+    }
+
     .hupgrade{
         font-size: 100px;
     }
