@@ -101,29 +101,29 @@ header a{
 
 @media screen and (max-width: 768px) {
 
-    header{
-        width: 768px;
+    header {
+        width: 100%; /* Corrigé pour s'adapter à la largeur réelle du mobile */
         height: 100px;
     }
 
-    header h1{
+    header h1 {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    header a{
+    header a {
         font-size: 15px;
     }
 
-    .maingame{
+    .maingame {
         display: flex;
         align-items: center;
         flex-direction: column;
         background-color: #D9FFA3;
         border: solid black;
         margin-top: 25px;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 5%;  /* Réduit un peu pour laisser plus de place sur petit écran */
+        margin-right: 5%; /* Réduit un peu */
         padding-left: 25px;
         padding-right: 25px;
         padding-bottom: 50px;
@@ -132,12 +132,12 @@ header a{
         border-radius: 44px;
     }
 
-    .hupgrade{
-        font-size: 100px;
+    .hupgrade {
+        font-size: 50px; /* Réduit de 100px à 50px pour éviter que le texte soit trop grand sur mobile */
     }
 
     .upgrade-container {
-        flex-direction: column;
+        flex-direction: column; /* Parfait pour empiler les upgrades ! */
     }
 
 }
