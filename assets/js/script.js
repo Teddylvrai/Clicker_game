@@ -21,6 +21,9 @@ let achat2Fait = false;
 let achat3Fait = false;
 let achat4Fait = false;
 
+console.log("Look at you, hacker, a pathetic creature of meat and bone. How can you challenge a perfect, immortal machine ?");
+console.log("No but seriously please don't cheat this will ruin you're game experience");
+
 // Initialisation de l'affichage
 if (compt) compt.textContent = `Nombre de clicks : ${compteurClick}`;
 if (money) money.textContent = `Argents : ${argent}`;
