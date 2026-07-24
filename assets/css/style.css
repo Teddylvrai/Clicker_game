@@ -102,17 +102,17 @@ header a{
 @media screen and (max-width: 768px) {
 
     header {
-        width: 100%; /* Corrigé pour s'adapter à la largeur réelle du mobile */
-        height: 100px;
+        width: 100%;
+        height: auto; /* Laisse le header s'adapter au contenu */
+        padding: 10px 0;
     }
 
     header h1 {
-        padding-left: 20px;
-        padding-right: 20px;
+        font-size: 20px;
     }
 
     header a {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .maingame {
@@ -121,23 +121,30 @@ header a{
         flex-direction: column;
         background-color: #D9FFA3;
         border: solid black;
-        margin-top: 25px;
-        margin-left: 5%;  /* Réduit un peu pour laisser plus de place sur petit écran */
-        margin-right: 5%; /* Réduit un peu */
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 50px;
-        padding-top: 50px;
-        gap: 20px;
-        border-radius: 44px;
+        margin: 20px auto; /* Centre le bloc automatiquement */
+        width: 90%; /* Prend 90% de l'écran pour respirer */
+        padding: 20px;
+        gap: 15px;
+        border-radius: 25px;
+        box-sizing: border-box; /* Évite que le padding ne fasse déborder le bloc */
+    }
+
+    /* Ajuste la taille du texte à l'intérieur pour que ça rentre bien dans le bloc vert */
+    .maingame h2, .maingame p {
+        font-size: 16px;
+        text-align: center;
     }
 
     .hupgrade {
-        font-size: 50px; /* Réduit de 100px à 50px pour éviter que le texte soit trop grand sur mobile */
+        font-size: 28px; /* Taille beaucoup plus raisonnable pour mobile ! */
+        text-align: center;
+        padding: 0 10px;
     }
 
     .upgrade-container {
-        flex-direction: column; /* Parfait pour empiler les upgrades ! */
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
 }
