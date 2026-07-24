@@ -157,12 +157,12 @@ header a{
     /*    margin: 20px auto;
     }*/
 
-    .upgrade-box { /* (mets le nom exact de la classe de tes boîtes d'améliorations) */
-        width: 250px;       /* Fixe une largeur identique pour toutes */
-        min-height: 220px;  /* Force une hauteur minimale identique */
+    .upgrade-box { 
+        width: 250px;       
+        min-height: 220px; 
         display: flex;
         flex-direction: column;
-        justify-content: space-between; /* Espace le contenu uniformément du haut en bas */
+        justify-content: space-between; 
         align-items: center;
         border: solid black;
         border-radius: 25px;
